@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASADE</title>
+<link rel="icon" href="Icon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="translations.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+	<h1 data-i18n="site.title">My Site</h1>
+	<div class="search">
+	<input id="search" type="search" autocomplete="off" role="combobox"
+		aria-expanded="false" aria-controls="results"
+		data-i18n-attr="placeholder:search.placeholder">
+	<ul id="results" role="listbox" hidden></ul>
+	</div>
+	<select id="language" aria-label="Language"></select>
+</header>
+
+<main id="content">
+
+<details class="tab">
+<summary data-i18n="tab0.title"></summary>
+<div class="tab-body">
+	<b><dt data-i18n="tab0.option1.name"></dt></b>
+ 	<dd data-i18n="tab0.option1.description"></dd>
+	<b><dt data-i18n="tab0.option2.name"></dt></b>
+	<dd data-i18n="tab0.option2.description"></dd>
+</div>
+</details>
+
+<details class="tab">
+<summary data-i18n="tab1.title"></summary>
+<div class="tab-body">
+	<img class="fit-picture" src="assets/1.webp" alt="Screen UI" data-i18n-attr="alt:tab1.alt"/>
+	<p data-i18n="tab1.text"></p>
+	<b><dt data-i18n="tab1.option1.name"></dt></b>
+ 	<dd data-i18n="tab1.option1.description"></dd>
+	<b><dt data-i18n="tab1.option2.name"></dt></b>
+	<dd data-i18n="tab1.option2.description"></dd>
+</div>
+</details>
+
+<details class="tab">
+<summary data-i18n="tab2.title"></summary>
+<div class="tab-body">
+	<img class="fit-picture" src="assets/2.webp" alt="Object list UI" data-i18n-attr="alt:tab2.alt"/>
+	<p data-i18n="tab2.text"></p>
+	<b><dt data-i18n="tab2.option1.name"></dt></b>
+	<dd data-i18n="tab2.option1.description"></dd>
+	<b><dt data-i18n="tab2.option2.name"></dt></b>
+	<dd data-i18n="tab2.option2.description"></dd>
+	<b><dt data-i18n="tab2.option3.name"></dt></b>
+	<dd data-i18n="tab2.option3.description"></dd>
+</div>
+</details>
+
+<details class="tab">
+<summary data-i18n="tab3.title"></summary>
+<div class="tab-body">
+	<p data-i18n="tab3.text"></p>
+	<b><dt data-i18n="tab3.option1.name"></dt></b>
+	<dd data-i18n="tab3.option1.description"></dd>
+
+		<details class="tab">
+		<summary data-i18n="tab3.global.title"></summary>
+		<div class="tab-body">
+			<img class="fit-picture" src="assets/3.webp" alt="Global properties UI" data-i18n-attr="alt:tab3.global.alt"/>
+			<p data-i18n="tab3.global.text"></p>
+			<b><dt data-i18n="tab3.global.option1.name"></dt></b>
+			<dd data-i18n="tab3.global.option1.description"></dd>
+			<b><dt data-i18n="tab3.global.option2.name"></dt></b>
+			<dd data-i18n="tab3.global.option2.description"></dd>
+			<b><dt data-i18n="tab3.global.option3.name"></dt></b>
+			<dd data-i18n="tab3.global.option3.description"></dd>
+			
+		</div>
+		</details>
+
+		<details class="tab">
+		<summary data-i18n="tab3.element.title"></summary>
+		<div class="tab-body">
+			<img class="fit-picture" src="assets/4.webp" alt="Element properies UI" data-i18n-attr="alt:tab3.element.alt"/>
+			<p data-i18n="tab3.element.text"></p>
+
+
+			<details class="tab">
+			<summary data-i18n="tab3.element.default.title"></summary>
+			<div class="tab-body">
+				<img class="fit-picture" src="assets/5.webp" alt="Default element properies UI" data-i18n-attr="alt:tab3.element.default.alt"/>
+				<b><dt data-i18n="tab3.element.default.option1.name"></dt></b>
+				<dd data-i18n="tab3.element.default.option1.description"></dd>
+				<b><dt data-i18n="tab3.element.default.option2.name"></dt></b>
+				<dd data-i18n="tab3.element.default.option2.description"></dd>
+				<b><dt data-i18n="tab3.element.default.option3.name"></dt></b>
+				<dd data-i18n="tab3.element.default.option3.description"></dd>
+				<b><dt data-i18n="tab3.element.default.option4.name"></dt></b>
+				<dd data-i18n="tab3.element.default.option4.description"></dd>
+			</div>
+			</details>
+
+			<details class="tab">
+			<summary data-i18n="tab3.element.text.title"></summary>
+			<div class="tab-body">
+				<img class="fit-picture" src="assets/6.webp" alt="Text element properies UI" data-i18n-attr="alt:tab3.element.text.alt"/>
+				<p data-i18n="tab3.element.text.text"></p>
+				<details class="tab">
+				<summary data-i18n="tab3.element.text.text.title"></summary>
+				<div class="tab-body">
+					<img class="fit-picture" src="assets/7.webp" alt="Element properies UI" data-i18n-attr="alt:tab3.element.text.text.alt"/>
+					<p data-i18n="tab3.element.text.text.text"></p>
+					<b><dt data-i18n="tab3.text.text.option1.name"></dt></b>
+					<dd data-i18n="tab3.text.text.option1.description"></dd>
+					<p data-i18n="tab3.text.text.option1.style"></p>
+					<dd>
+					<li data-i18n="tab3.text.text.option1.style1"></li>
+					<img class="fit-picture" src="assets/b.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style2"></li>
+					<img class="fit-picture" src="assets/i.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style3"></li>
+					<img class="fit-picture" src="assets/u.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style4"></li>
+					<img class="fit-picture" src="assets/m.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style5"></li>
+					<img class="fit-picture" src="assets/o.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style6"></li>
+					<img class="fit-picture" src="assets/n.webp" style="width: auto; height: 50px;"/>
+					<li data-i18n="tab3.text.text.option1.style7"></li>
+					<img class="fit-picture" src="assets/l.webp" style="width: auto; height: 75px;"/>
+					<li data-i18n="tab3.text.text.option1.style8"></li>
+					<img class="fit-picture" src="assets/c.webp" style="width: auto; height: 75px;"/>
+					<li data-i18n="tab3.text.text.option1.style9"></li>
+					<img class="fit-picture" src="assets/r.webp" style="width: auto; height: 75px;"/>
+					<li data-i18n="tab3.text.text.option1.style10"></li>
+					<img class="fit-picture" src="assets/underscore.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style11"></li>
+					<img class="fit-picture" src="assets/power.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style12"></li>
+					<img class="fit-picture" src="assets/s.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style13"></li>
+					<img class="fit-picture" src="assets/d.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style14"></li>
+					<img class="fit-picture" src="assets/v.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style15"></li>
+					<img class="fit-picture" src="assets/x.webp" style="width: auto; height: 25px;"/>
+					<li data-i18n="tab3.text.text.option1.style16"></li>
+					<img class="fit-picture" src="assets/slash.webp" style="width: auto; height: 25px;"/>
+					</dd>
+					<b><dt data-i18n="tab3.text.text.option2.name"></dt></b>
+					<dd data-i18n="tab3.text.text.option2.description"></dd>
+					<b><dt data-i18n="tab3.text.text.option3.name"></dt></b>
+					<dd data-i18n="tab3.text.text.option3.description"></dd>
+					<b><dt data-i18n="tab3.text.text.option4.name"></dt></b>
+					<dd data-i18n="tab3.text.text.option4.description"></dd>
+					<b><dt data-i18n="tab3.text.text.option5.name"></dt></b>
+					<dd data-i18n="tab3.text.text.option5.description"></dd>
+				
+				</div>
+				</details>
+
+				<details class="tab">
+				<summary data-i18n="tab3.element.text.textstyle.title"></summary>
+				<div class="tab-body">
+					<img class="fit-picture" src="assets/8.webp" alt="Element properies UI" data-i18n-attr="alt:tab3.element.text.text.alt"/>
+					<p data-i18n="tab3.element.text.textstyle.text"></p>
+					<b><dt data-i18n="tab3.text.textstyle.option1.name"></dt></b>
+					<dd data-i18n="tab3.text.textstyle.option1.description"></dd>
+					<b><dt data-i18n="tab3.text.textstyle.option2.name"></dt></b>
+					<dd data-i18n="tab3.text.textstyle.option2.description"></dd>
+					<b><dt data-i18n="tab3.text.textstyle.option3.name"></dt></b>
+					<dd data-i18n="tab3.text.textstyle.option3.description"></dd>
+
+				</div>
+				</details>
+
+			</div>
+			</details>
+
+		</div>
+		</details>
+</div>
+</details>
+
+</main>
+
+</body>
+</html>
