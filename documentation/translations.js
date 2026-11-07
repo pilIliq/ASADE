@@ -91,7 +91,8 @@ const KEYS = [
   'tab3.text.textstyle.option2.name',
   'tab3.text.textstyle.option2.description',
   'tab3.text.textstyle.option3.name',
-  'tab3.text.textstyle.option3.description'
+  'tab3.text.textstyle.option3.description',
+  'footerlinktext',
 ];
 
 const TRANSLATIONS = {
@@ -186,7 +187,8 @@ const TRANSLATIONS = {
     'Text transparency',
     'Use the transparency field or slider to set text transparency. The field accepts values outside the slider’s minimum and maximum limits.',
     'Text blending',
-    'Use the blending dropdown to choose the text blending mode.'
+    'Use the blending dropdown to choose the text blending mode.',
+    'Back to editor',
   ],
 
   uk: [
@@ -280,7 +282,8 @@ const TRANSLATIONS = {
     'Прозорість тексту',
     'Використовуйте поле прозорості або повзунок, щоб задати прозорість тексту. Поле приймає значення за межами мінімального та максимального значень повзунка.',
     'Змішування тексту',
-    'Використовуйте список режимів змішування, щоб вибрати режим змішування тексту.'
+    'Використовуйте список режимів змішування, щоб вибрати режим змішування тексту.',
+    'Назад до редактора',
   ],
 
   de: [
@@ -374,7 +377,8 @@ const TRANSLATIONS = {
     'Texttransparenz',
     'Legen Sie mit dem Transparenzfeld oder dem Schieberegler die Texttransparenz fest. Das Feld akzeptiert Werte außerhalb der Mindest- und Höchstgrenzen des Schiebereglers.',
     'Textüberblendung',
-    'Wählen Sie im Dropdown-Menü den Überblendungsmodus für den Text aus.'
+    'Wählen Sie im Dropdown-Menü den Überblendungsmodus für den Text aus.',
+    'Zurück zum Editor',
   ],
 
   pl: [
@@ -468,7 +472,8 @@ const TRANSLATIONS = {
     'Przezroczystość tekstu',
     'Użyj pola przezroczystości lub suwaka, aby ustawić przezroczystość tekstu. Pole przyjmuje wartości spoza minimalnego i maksymalnego zakresu suwaka.',
     'Tryb mieszania tekstu',
-    'Użyj listy rozwijanej trybów mieszania, aby wybrać tryb mieszania tekstu.'
+    'Użyj listy rozwijanej trybów mieszania, aby wybrać tryb mieszania tekstu.',
+    'Powrót do edytora',
   ],
 
   es: [
@@ -562,7 +567,8 @@ const TRANSLATIONS = {
     'Transparencia del texto',
     'Usa el campo de transparencia o el control deslizante para establecer la transparencia del texto. El campo acepta valores fuera de los límites mínimo y máximo del control deslizante.',
     'Mezcla del texto',
-    'Usa el menú desplegable de modos de mezcla para elegir el modo de mezcla del texto.'
+    'Usa el menú desplegable de modos de mezcla para elegir el modo de mezcla del texto.',
+    'Volver al editor',
   ],
 
   fr: [
@@ -656,7 +662,8 @@ const TRANSLATIONS = {
     'Transparence du texte',
     'Utilisez le champ de transparence ou le curseur pour définir la transparence du texte. Le champ accepte des valeurs en dehors des limites minimale et maximale du curseur.',
     'Fusion du texte',
-    'Utilisez la liste déroulante des modes de fusion pour choisir le mode de fusion du texte.'
+    'Utilisez la liste déroulante des modes de fusion pour choisir le mode de fusion du texte.',
+    'Retour à l’éditeur',
   ],
 
   ru: [
@@ -750,7 +757,8 @@ const TRANSLATIONS = {
     'Прозрачность текста',
     'Используйте поле прозрачности или ползунок, чтобы задать прозрачность текста. Поле принимает значения за пределами минимального и максимального значений ползунка.',
     'Смешивание текста',
-    'Используйте выпадающий список режимов смешивания, чтобы выбрать режим смешивания текста.'
+    'Используйте выпадающий список режимов смешивания, чтобы выбрать режим смешивания текста.',
+    'Назад к редактору',
   ]
 };
 
